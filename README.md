@@ -16,6 +16,11 @@ MySQL (optional if using persistent storage, or H2 for in-memory storage)
 Openweathermap (Sign in)
 
 
+
+
+
+
+
  1: Clone the Repository
  
  2: Set Up the Backend (Spring Boot)
@@ -54,19 +59,19 @@ Openweathermap (Sign in)
       openweathermap.api.key=api key
       openweathermap.api.url=https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}
 
-3.Configure Database Connection
+4.Configure Database Connection
 
-4.Run the Spring Boot Application
+5.Run the Spring Boot Application
 
-5. Set Up the Frontend (React)
+6. Set Up the Frontend (React)
    
-6. Install Dependencies: Use npm to install all necessary packages (e.g., Axios)
+7. Install Dependencies: Use npm to install all necessary packages (e.g., Axios)
 
-7. Update API Base URL
+8. Update API Base URL
 
-8. Run the React Application
+9. Run the React Application
 
-9. Verify the Application
+10. Verify the Application
    Open the Application: In your browser, go to http://localhost:3000 to interact with the React frontend.
    Backend API Testing: You can also test backend endpoints directly using a tool like Postman to verify the rule creation, listing, and evaluation functionalities.
 
